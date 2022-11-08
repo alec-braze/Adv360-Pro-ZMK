@@ -2,7 +2,7 @@ macro_colon: macro_colon{
 compatible = "zmk,behavior-macro";
 label = "macro_colon";
 #binding-cells = <0>;
-bindings = <&sk LEFT_SHIFT>, <&kp S>;
+bindings = <&sk LEFT_SHIFT>, <&kp Z>;
 };
 macro_screen_right: macro_screen_right{
 compatible = "zmk,behavior-macro";
