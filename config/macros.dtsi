@@ -1,3 +1,33 @@
+macro_colon: macro_colon{
+compatible = "zmk,behavior-macro";
+label = "macro_colon";
+#binding-cells = <0>;
+bindings = <&sk LEFT_SHIFT>, <&kp S>;
+};
+macro_screen_right: macro_screen_right{
+compatible = "zmk,behavior-macro";
+label = "macro_screen_right";
+#binding-cells = <0>;
+bindings = <&sk LEFT_COMMAND>, <&sk LEFT_ALT>, <&sk LEFT_CONTROL>, <&kp RIGHT>;
+};
+macro_screen_left: macro_screen_left{
+compatible = "zmk,behavior-macro";
+label = "macro_screen_left";
+#binding-cells = <0>;
+bindings = <&sk LEFT_COMMAND>, <&sk LEFT_ALT>, <&sk LEFT_CONTROL>, <&kp LEFT>;
+};
+macro_window_right: macro_window_right{
+compatible = "zmk,behavior-macro";
+label = "macro_window_right";
+#binding-cells = <0>;
+bindings = <&sk LEFT_COMMAND>, <&sk LEFT_ALT>, <&kp RIGHT>;
+};
+macro_window_left: macro_window_left{
+compatible = "zmk,behavior-macro";
+label = "macro_window_left";
+#binding-cells = <0>;
+bindings = <&sk LEFT_COMMAND>, <&sk LEFT_ALT>, <&kp LEFT>;
+};
 macro_delete_word: macro_delete_word{
 compatible = "zmk,behavior-macro";
 label = "macro_delete_word";
@@ -20,7 +50,7 @@ macro_greater_than: macro_greater_than{
 compatible = "zmk,behavior-macro";
 label = "macro_greater_than";
 #binding-cells = <0>;
-bindings = <&sk LEFT_SHIFT>, <&kp V>;
+bindings = <&sk LEFT_SHIFT>, <&kp E>;
 };
 macro_less_than: macro_less_than{
 compatible = "zmk,behavior-macro";
