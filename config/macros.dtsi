@@ -1,3 +1,27 @@
+macro_double_quote: macro_double_quote{
+compatible = "zmk,behavior-macro";
+label = "macro_double_quote";
+#binding-cells = <0>;
+bindings = <&sk LEFT_SHIFT>, <&kp Q>;
+};
+macro_forward_slash: macro_forward_slash{
+compatible = "zmk,behavior-macro";
+label = "macro_forward_slash";
+#binding-cells = <0>;
+bindings = <&sk LEFT_SHIFT>, <&kp Z>;
+};
+macro_greater_than: macro_greater_than{
+compatible = "zmk,behavior-macro";
+label = "macro_greater_than";
+#binding-cells = <0>;
+bindings = <&sk LEFT_SHIFT>, <&kp V>;
+};
+macro_less_than: macro_less_than{
+compatible = "zmk,behavior-macro";
+label = "macro_less_than";
+#binding-cells = <0>;
+bindings = <&sk LEFT_SHIFT>, <&kp W>;
+};
 macro_omni: macro_omni{
 compatible = "zmk,behavior-macro";
 label = "macro_omni";
@@ -14,13 +38,13 @@ macro_app_switcher: macro_app_switcher{
 compatible = "zmk,behavior-macro";
 label = "macro_app_switcher";
 #binding-cells = <0>;
-bindings = <&kp LEFT_COMMAND>, <&kp TAB>;
+bindings = <&sk LEFT_COMMAND>, <&kp TAB>;
 };
 macro_spotlight: macro_spotlight{
 compatible = "zmk,behavior-macro";
 label = "macro_spotlight";
 #binding-cells = <0>;
-bindings = <&kp LEFT_COMMAND>, <&kp SPACE>;
+bindings = <&sk LEFT_COMMAND>, <&kp SPACE>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
