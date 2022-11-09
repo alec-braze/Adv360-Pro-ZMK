@@ -11,7 +11,6 @@ compatible = "zmk,behavior-macro";
 label = "macro_screen_right";
 #binding-cells = <0>;
 bindings = <&sk LEFT_COMMAND>, <&sk LEFT_ALT>, <&sk LEFT_CONTROL>, <&kp RIGHT>;
-tap-ms = <10>;
 wait-ms = <10>;
 };
 macro_screen_left: macro_screen_left{
@@ -19,7 +18,6 @@ compatible = "zmk,behavior-macro";
 label = "macro_screen_left";
 #binding-cells = <0>;
 bindings = <&sk LEFT_COMMAND>, <&sk LEFT_ALT>, <&sk LEFT_CONTROL>, <&kp LEFT>;
-tap-ms = <10>;
 wait-ms = <10>;
 };
 macro_window_right: macro_window_right{
@@ -27,7 +25,6 @@ compatible = "zmk,behavior-macro";
 label = "macro_window_right";
 #binding-cells = <0>;
 bindings = <&sk LEFT_COMMAND>, <&sk LEFT_ALT>, <&kp RIGHT>;
-tap-ms = <10>;
 wait-ms = <10>;
 };
 macro_window_left: macro_window_left{
@@ -35,7 +32,6 @@ compatible = "zmk,behavior-macro";
 label = "macro_window_left";
 #binding-cells = <0>;
 bindings = <&sk LEFT_COMMAND>, <&sk LEFT_ALT>, <&kp LEFT>;
-tap-ms = <10>;
 wait-ms = <10>;
 };
 macro_delete_word: macro_delete_word{
